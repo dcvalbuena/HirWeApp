@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HirWeApp</string>
+    <string name="Str_email">example@example.com</string>
+    <string name="Str_password">Password</string>
 </resources>
