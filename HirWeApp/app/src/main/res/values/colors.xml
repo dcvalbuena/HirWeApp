@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Colores para el texto -->
+    <color name="txt_oscuro">#515B8F</color>
+    <color name="txt_claro">#29B6F6</color>
+    <!-- Colores para las tarjetas -->
+    <color name="card1">#C23B0E</color>
+    <color name="card2">#F6A067</color>
+    <color name="card3">#29B6F6</color>
+    <color name="card4">#515B8F</color>
 </resources>
