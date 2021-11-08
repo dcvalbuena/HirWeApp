@@ -9,60 +9,87 @@
         android:id="@+id/img_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_access_account"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="80dp"
+        android:contentDescription="login"
+        app:srcCompat="@drawable/ic_access_account" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_email"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/img_login"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:ems="15"
         android:hint="@string/Str_email"
-        android:inputType="textEmailAddress"
-        android:drawableLeft="@drawable/ic_baseline_account_circle"
-        android:drawablePadding="2dp"/>
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        app:startIconDrawable="@drawable/ic_baseline_account_circle">
 
-    <EditText
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:drawablePadding="2dp"
+            android:inputType="textEmailAddress"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_password"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/Str_password"
-        android:inputType="textPassword"
-        android:ems="15"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
         android:layout_below="@id/txt_email"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
-        android:drawableLeft="@drawable/ic_baseline_security"
-        android:drawablePadding="2dp"/>
+        android:hint="@string/Str_password"
+        app:passwordToggleEnabled="true"
+        app:counterMaxLength="20"
+        app:counterEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_security"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="2dp"
+            android:ems="15"
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
         android:layout_below="@id/txt_password"
         android:layout_alignStart="@id/txt_password"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_Inicio_Sesion"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        android:text="@string/lbl_registrarse"
         android:layout_below="@id/txt_password"
         android:layout_alignEnd="@id/txt_password"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:textAllCaps="false"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        android:text="@string/lbl_recordar_password"
         android:layout_marginTop="8dp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/btn_login"/>
+        android:layout_below="@id/btn_login"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textAllCaps="false"/>
 
 </RelativeLayout>
