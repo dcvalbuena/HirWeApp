@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">HirWeApp</string>
-    <string name="Str_email">example@example.com</string>
-    <string name="Str_password">Password</string>
+    <string name="Str_email">Correo</string>
+    <string name="Str_password">Contraseña</string>
+    <string name="lbl_Inicio_Sesion">Ingresar</string>
+    <string name="lbl_registrarse">Registrarse</string>
+    <string name="lbl_recordar_password"><u>Contraseña</u></string>
 </resources>
