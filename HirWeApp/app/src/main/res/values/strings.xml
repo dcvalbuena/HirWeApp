@@ -5,4 +5,7 @@
     <string name="lbl_Inicio_Sesion">Ingresar</string>
     <string name="lbl_registrarse">Registrarse</string>
     <string name="lbl_recordar_password"><u>Contraseña</u></string>
+    <string name="lbl_encuentra_lo_que_buscas">Encuentra lo que buscas</string>
+    <string name="lbl_continuar">Continuar</string>
+    <string name="lbl_login">login</string>
 </resources>
