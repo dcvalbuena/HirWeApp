@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <font-family xmlns:android="http://schemas.android.com/apk/res/android">
-    <font android:font="@font/SourceSansPro_Black"
+    <font android:font="@font/raleway_black"
         android:fontWeight="900"
         android:fontStyle="normal"/>
 
-    <font android:font="@font/SourceSansPro_BlackItalic"
+    <font android:font="@font/raleway_blackitalic"
         android:fontWeight="900"
         android:fontStyle="italic"/>
 
-    <font android:font="@font/SourceSansPro_Bold"
+    <font android:font="@font/raleway_bold"
         android:fontWeight="700"
         android:fontStyle="normal"/>
 
-    <font android:font="@font/SourceSansPro_BoldItalic"
+    <font android:font="@font/raleway_bolditalic"
         android:fontWeight="700"
         android:fontStyle="italic"/>
 
-    <font android:font="@font/SourceSansPro_Italic"
-        android:fontWeight="400"
+    <font android:font="@font/raleway_italic"
+        android:fontWeight="500"
         android:fontStyle="italic"/>
 
-    <font android:font="@font/SourceSansPro_Light"
+    <font android:font="@font/raleway_light"
         android:fontWeight="300"
         android:fontStyle="normal"/>
 
-    <font android:font="@font/SourceSansPro_Light"
+    <font android:font="@font/raleway_lightitalic"
         android:fontWeight="300"
         android:fontStyle="italic"/>
 
-    <font android:font="@font/SourceSansPro_Regular"
+    <font android:font="@font/raleway_regular"
         android:fontWeight="400"
         android:fontStyle="normal"/>
 </font-family>
