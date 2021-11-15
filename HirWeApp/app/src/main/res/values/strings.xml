@@ -8,4 +8,7 @@
     <string name="lbl_encuentra_lo_que_buscas">Encuentra lo que buscas</string>
     <string name="lbl_continuar">Continuar</string>
     <string name="lbl_login">login</string>
+    <string name="lbl_ubicacion">Ubicación</string>
+    <string name="lbl_direccion">Bogotá, Bogotá, CO</string>
+    <string name="lbl_vermas">Ver más</string>
 </resources>
