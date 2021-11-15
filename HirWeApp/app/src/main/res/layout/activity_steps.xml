@@ -6,16 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".view.StepsActivity">
 
-    <ImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/pareja2" />
+        app:lottie_rawRes="@raw/area_map"
+        app:lottie_autoPlay="true"
+        app:lottie_repeatCount="2"
+        android:elevation="2dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_rawRes="@raw/blob_animation"/>
 
     <TextView
         android:id="@+id/textView"
@@ -28,6 +42,8 @@
         android:ems="7"
         android:textAlignment="center"
         android:textStyle="bold"
+        android:textFontWeight="700"
+        android:fontFamily="@font/sanspro_family"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

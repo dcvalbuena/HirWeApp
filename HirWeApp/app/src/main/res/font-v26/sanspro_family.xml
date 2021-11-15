@@ -24,7 +24,7 @@
         android:fontWeight="300"
         android:fontStyle="normal"/>
 
-    <font android:font="@font/SourceSansPro_Light"
+    <font android:font="@font/SourceSansPro_LightItalic"
         android:fontWeight="300"
         android:fontStyle="italic"/>
 
